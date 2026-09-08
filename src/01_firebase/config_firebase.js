@@ -1,20 +1,14 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBlKHCdVfQvMRKQf2B5UqaLfDkwm6T1apo",
-  authDomain: "challo-ghume-fa22c.firebaseapp.com",
-  projectId: "challo-ghume-fa22c",
-  storageBucket: "challo-ghume-fa22c.appspot.com",
-  messagingSenderId: "411994731743",
-  appId: "1:411994731743:web:a02cec85eb6aa66ddbe56a",
-  measurementId: "G-5KYMV9KZ2D"
+  apiKey: "AIzaSyD08neqchEaFzDKQ2JGqKHo1qBlqmjE9wA",
+  authDomain: "expedia-clone-gn13.firebaseapp.com",
+  projectId: "expedia-clone-gn13",
+  storageBucket: "expedia-clone-gn13.firebasestorage.app",
+  messagingSenderId: "896310582529",
+  appId: "1:896310582529:web:86345965ed47cfd8500f00"
 };
 
-// Initialize Firebase
 const firebase_app = initializeApp(firebaseConfig);
 
 export default firebase_app
